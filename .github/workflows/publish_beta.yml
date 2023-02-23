@@ -1,4 +1,4 @@
-name: MSE flask docker image BETA
+name: MSE data science docker image BETA
 
 on:
   pull_request:
@@ -16,7 +16,7 @@ jobs:
       packages: write
       contents: read
     env:
-      IMAGE: ghcr.io/cosmian/mse-flask-beta
+      IMAGE: ghcr.io/cosmian/mse-ds-beta
 
     steps:
       - name: Checkout
