@@ -6,4 +6,5 @@ RUN . /opt/venv/bin/activate && \
                  "Flask-SQLAlchemy==3.0.2" \
                  "pandas==1.5.3" \
                  "numpy==1.24.2" \
-                 "scipy==1.10.1"
+                 "scipy==1.10.1" \
+                 "scikit-learn==1.2.2"
